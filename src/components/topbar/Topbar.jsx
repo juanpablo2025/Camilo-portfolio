@@ -9,10 +9,13 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <a href="#intro" className="logo">
             CAMILO_INK_TATTO
           </a>
-          <div className="itemContainer">
+          <a
+            href="https://api.whatsapp.com/send?phone=573006654298"
+            className="itemContainer"
+          >
             <Person className="icon" />
             <span>+ 57 300 665 42 98</span>
-          </div>
+          </a>
           <div className="itemContainer">
             <Mail className="icon" />
             <span>camilo@hotmail.com</span>
